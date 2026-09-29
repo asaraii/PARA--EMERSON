@@ -203,7 +203,7 @@ html, body {
 #corazonCanvas {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 48%;
     width: 100%;
     height: 100%;
     transform: translate(-50%, -50%);
@@ -215,7 +215,7 @@ html, body {
     content: "";
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 48%;
     width: 80%;
     height: 80%;
     transform: translate(-50%, -50%);
@@ -477,7 +477,7 @@ function actualizarPlaneta() {
         const opacidad = 0.3 + profundidad * 0.7;
 
         const pantallaX = x * 0.88;
-        const pantallaY = y * 0.67;
+        const pantallaY = y * 0.50;
 
         elemento.style.transform =
             `translate(calc(-50% + ${pantallaX}px), calc(-50% + ${pantallaY}px)) scale(${escala})`;
